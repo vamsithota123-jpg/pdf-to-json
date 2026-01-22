@@ -6,6 +6,7 @@ import { RankingsService } from './rankings.service';
 import { Ranking, RankingSchema } from './schemas/rankings.schema';
 import { PdfService } from '../pdf/pdf.service';
 import { GeminiService } from '../gemini/gemini.service';
+import { ExtractJsonFromPdfService } from '../pdf/extractJsonFromPdf.service';
 
 @Module({
   imports: [
@@ -14,6 +15,6 @@ import { GeminiService } from '../gemini/gemini.service';
     ]),
   ],
   controllers: [RankingsController],
-  providers: [RankingsService, PdfService, GeminiService],
+  providers: [RankingsService, PdfService, GeminiService, ExtractJsonFromPdfService],
 })
 export class RankingsModule {}

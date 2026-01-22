@@ -4,7 +4,7 @@ import { GoogleGenAI } from '@google/genai';
 import * as fs from 'fs';
 
 @Injectable()
-export class GeminiService {
+export class ExtractJsonFromPdfService {
   private ai: GoogleGenAI;
 
   constructor(private configService: ConfigService) {
