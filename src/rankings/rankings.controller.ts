@@ -24,7 +24,7 @@ export class RankingsController {
 
     for (const file of files) {
       results.push(
-        await this.rankingsService.processPdf(file, source),
+        ...(await this.rankingsService.processPdf(file, source)),
       );
     }
 
