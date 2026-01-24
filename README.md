@@ -1,3 +1,13 @@
+## 🌐 Deployed Application
+
+This project is deployed using **Render**.
+
+- **Live URL:** https://pdf-to-json-2.onrender.com
+- **Status:** Active ✅
+
+> Note: The root route (`/`) may return `404 Not Found` if not explicitly defined.  
+> Please use the documented API endpoints.
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
